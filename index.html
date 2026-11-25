@@ -79,6 +79,11 @@ h2 em{color:var(--rosa);font-style:italic}
 .dest p{color:#c9c3bc;font-size:.92rem;margin-bottom:14px}
 .dest a{font-size:.85rem;font-weight:600;color:#fff}
 .dest a:after{content:" →";color:var(--ouro)}
+.festas{background:radial-gradient(circle at 90% 0,var(--rosa2),transparent 45%),var(--rosado)}
+.ciclos{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:24px}
+.ciclos div{background:#fff;border:1px solid var(--linha);border-radius:18px;padding:18px;text-align:center}
+.ciclos b{display:block;font-family:'Cormorant Garamond',serif;font-size:1.9rem;font-weight:600;line-height:1}
+.ciclos span{color:var(--cinza);font-size:.82rem}
 .equipe{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
 .pessoa{background:#fff;border:1px solid var(--linha);border-radius:20px;padding:20px;text-align:center}
 .av{width:76px;height:76px;border-radius:50%;margin:0 auto 10px;display:grid;place-items:center;background:linear-gradient(150deg,var(--rosa2),var(--ouro2));font-family:'Cormorant Garamond',serif;font-size:1.9rem;font-weight:600}
@@ -114,7 +119,7 @@ footer i{font-family:'Great Vibes',cursive;font-style:normal;color:var(--ouro);f
 <header>
   <div class="wrap nav">
     <a href="#" class="logo"><span class="mono">S</span><span><b>SODIVA</b><i>espaço beleza</i></span></a>
-    <nav><a href="#servicos">Serviços</a><a href="#destaques">Mega Hair</a><a href="#equipe">Equipe</a><a href="#avaliacoes">Avaliações</a><a href="#local">Onde fica</a></nav>
+    <nav><a href="#servicos">Serviços</a><a href="#festas">Fim de ano</a><a href="#destaques">Mega Hair</a><a href="#equipe">Equipe</a><a href="#avaliacoes">Avaliações</a><a href="#local">Onde fica</a></nav>
     <a class="btn btn-preto" target="_blank" rel="noopener" href="https://www.trinks.com/sodiva-espaco-beleza-">Agendar</a>
   </div>
 </header>
@@ -167,6 +172,34 @@ footer i{font-family:'Great Vibes',cursive;font-style:normal;color:var(--ouro);f
       <div class="dest"><h3>Podologia</h3><p>Cuidado com unhas encravadas, calos e a saúde dos pés, com atendimento especializado.</p><a target="_blank" rel="noopener" href="https://wa.me/5511952142236?text=Oi!%20Quero%20agendar%20podologia.">Agendar podologia</a></div>
       <div class="dest"><h3>Curso de Manicure</h3><p>Aprenda a profissão com quem atende todos os dias, aqui no salão.</p><a target="_blank" rel="noopener" href="https://wa.me/5511952142236?text=Oi!%20Quero%20saber%20sobre%20o%20curso%20de%20manicure.">Quero saber do curso</a></div>
     </div>
+  </div>
+</section>
+
+<section id="festas" class="festas">
+  <div class="wrap">
+    <p class="eyebrow">Natal · Réveillon · formaturas · confraternizações</p>
+    <h2>Especial <em>festas de fim de ano</em></h2>
+    <p class="sub">É a época mais procurada do ano. Garanta o seu horário antes que a agenda lote: cabelo, unhas, sobrancelha, maquiagem e penteado para chegar linda na festa.</p>
+    <div class="grid">
+      <div class="card"><h3>Pacote festa</h3><span class="meta">Cabelo + mãos e pés + sobrancelha</span><div class="preco"><small>condição especial</small></div><div class="acoes"><a class="a2" target="_blank" rel="noopener" href="https://wa.me/5511952142236?text=Oi!%20Quero%20saber%20do%20pacote%20de%20festa%20de%20fim%20de%20ano.">Quero o pacote</a></div></div>
+      <div class="card"><h3>Maquiagem e penteado</h3><span class="meta">Para Natal, Réveillon e formatura</span><div class="preco"><small>reserve a data</small></div><div class="acoes"><a class="a2" target="_blank" rel="noopener" href="https://wa.me/5511952142236?text=Oi!%20Quero%20reservar%20maquiagem%20e%20penteado%20para%20uma%20festa.">Reservar data</a></div></div>
+      <div class="card"><h3>Mega hair para as festas</h3><span class="meta">Comprimento e volume para o ano novo</span><div class="preco"><small>avaliação do seu cabelo</small></div><div class="acoes"><a class="a2" target="_blank" rel="noopener" href="https://wa.me/5511952142236?text=Oi!%20Quero%20colocar%20mega%20hair%20para%20as%20festas.">Quero avaliar</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="lembrete" style="padding-top:0">
+  <div class="wrap">
+    <h2>A gente te avisa <em>quando for a hora</em></h2>
+    <p class="sub">Cada cuidado tem o seu tempo. Deixe o seu WhatsApp e a Sodiva te lembra de voltar, além de avisar das promoções da semana.</p>
+    <div class="ciclos">
+      <div><b>15 dias</b><span>manicure e pedicure</span></div>
+      <div><b>20 dias</b><span>design de sobrancelha</span></div>
+      <div><b>30 dias</b><span>corte masculino e podologia</span></div>
+      <div><b>45 dias</b><span>manutenção do mega hair</span></div>
+      <div><b>3 meses</b><span>realinhamento capilar</span></div>
+    </div>
+    <a class="btn btn-preto" target="_blank" rel="noopener" href="https://wa.me/5511952142236?text=Oi!%20Quero%20receber%20o%20lembrete%20de%20retorno%20e%20as%20promo%C3%A7%C3%B5es.">🔔 Quero receber os lembretes</a>
   </div>
 </section>
 
@@ -266,7 +299,7 @@ header.rolou{box-shadow:0 6px 24px rgba(22,20,23,.07)}
 })();
 // Seções aparecendo ao rolar (como no Studio Martins e no Angel's)
 (() => {
-  const alvos = document.querySelectorAll('section h2, .sub, .card, .dest, .pessoa, .quote, .faq details, .info, .map, .chips');
+  const alvos = document.querySelectorAll('section h2, .sub, .card, .dest, .pessoa, .quote, .faq details, .info, .map, .chips, .ciclos div');
   alvos.forEach((e, i) => { e.classList.add('revela'); e.style.transitionDelay = (i % 4) * 80 + 'ms'; });
   const ver = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('on'); ver.unobserve(e.target); } }), { threshold: 0.12 });
   alvos.forEach((e) => ver.observe(e));
